@@ -3,6 +3,23 @@
 ## Overview
 This project involves the development of a MATLAB program designed to analyze the relationship between Galvanic Skin Response (GSR) signals and physiological responses to fear. The analysis includes loading GSR data, applying various filters, normalizing the data, calculating features, and determining a fear index.
 
+## Quick Start
+
+Open MATLAB from the repository root and run:
+
+```matlab
+main
+```
+
+The repository includes the two expected input files:
+
+- `GSR_Baseline.csv`
+- `GSR_FEAR.csv`
+
+The script loads both recordings, applies median, low-pass, moving-average, and normalization steps, extracts GSR features, plots intermediate signals, and prints fear-index values for baseline and fear conditions.
+
+Note: GSR recordings are physiological data. If this repository is made public, confirm that these sample recordings are acceptable to share.
+
 ## Table of Contents
 - [Overview](#overview)
 - [Technical Details](#technical-details)
