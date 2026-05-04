@@ -18,8 +18,6 @@ The repository includes the two expected input files:
 
 The script loads both recordings, applies median, low-pass, moving-average, and normalization steps, extracts GSR features, plots intermediate signals, and prints fear-index values for baseline and fear conditions.
 
-Note: GSR recordings are physiological data. If this repository is made public, confirm that these sample recordings are acceptable to share.
-
 ## Table of Contents
 - [Overview](#overview)
 - [Technical Details](#technical-details)
@@ -27,7 +25,6 @@ Note: GSR recordings are physiological data. If this repository is made public, 
   - [Algorithm](#algorithm)
   - [Functions](#functions)
 - [Usage Instructions](#usage-instructions)
-- [Conclusion](#conclusion)
 
 ## Technical Details
 
@@ -111,6 +108,3 @@ The main function orchestrates the entire process:
 
 4. **Calculating Features and Fear Index**:
    - The program calculates various features from the GSR data and uses them to determine the fear index.
-
-## Conclusion
-This project successfully demonstrates the analysis of GSR data to understand physiological responses to fear. The program effectively processes the data, extracts meaningful features, and calculates a fear index, providing a comprehensive tool for fear analysis using GSR data.
